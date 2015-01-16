@@ -18,12 +18,6 @@ set titleold=
 let NERDTreeShowHidden=1
 autocmd vimenter * NERDTree
 
-set nocompatible          
-filetype off               
+set nocompatible         
+filetype plugin on
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'gmarik/Vundle.vim'
-
-call vundle#end()
